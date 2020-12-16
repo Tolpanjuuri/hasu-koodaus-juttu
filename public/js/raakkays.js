@@ -76,7 +76,7 @@ function draw(){
  function luo_kissoja(){
    let uusi_kisu = new Kissa();
    kissalista.unshift(uusi_kisu);
-   ry = Math.floor(Math.random() * 100) + 100; 
+   ry = Math.floor(Math.random() * 600) + 100; 
    timer = setTimeout(luo_kissoja,2000);
 
  }
