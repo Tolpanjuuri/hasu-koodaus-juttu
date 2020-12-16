@@ -80,11 +80,13 @@ function draw(){
  }
 
 
+rx = Math.floor(Math.random() * 100) + 100;
+
 
 
 class Kissa {
   constructor() {
-    this.Xpos = 30;
+    this.Xpos = rx;
     this.Ypos = 200;
     this.Xspe = 2;
     this.Yspe = -2;
