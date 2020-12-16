@@ -80,7 +80,7 @@ function draw(){
 
  }
 
-While true:{
+While (true) {
    rx = Math.floor(Math.random() * 100) + 100; 
 }
 
