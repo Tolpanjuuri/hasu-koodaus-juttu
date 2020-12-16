@@ -81,14 +81,14 @@ function draw(){
  }
 
 While (true) {
-   rx = Math.floor(Math.random() * 100) + 100; 
+   ry = Math.floor(Math.random() * 100) + 100; 
 }
 
 
 class Kissa {
   constructor() {
-    this.Xpos = rx;
-    this.Ypos = 200;
+    this.Xpos = 0;
+    this.Ypos = ry;
     this.Xspe = 2;
     this.Yspe = -2;
     this.Height = 50;
