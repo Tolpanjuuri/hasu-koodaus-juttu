@@ -77,6 +77,7 @@ function draw(){
    let uusi_kisu = new Kissa();
    kissalista.unshift(uusi_kisu);
    ry = Math.floor(Math.random() * 600) + 100; 
+   rxs = Math.floor(Math.random() * 600) + 100; 
    timer = setTimeout(luo_kissoja,2000);
 
  }
@@ -88,7 +89,7 @@ class Kissa {
   constructor() {
     this.Xpos = 0;
     this.Ypos = ry;
-    this.Xspe = 2;
+    this.Xspe = rxs;
     this.Yspe = -2;
     this.Height = 50;
     this.Wih = 50;
