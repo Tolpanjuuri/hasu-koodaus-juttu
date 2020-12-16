@@ -76,12 +76,13 @@ function draw(){
  function luo_kissoja(){
    let uusi_kisu = new Kissa();
    kissalista.unshift(uusi_kisu);
-   rx = Math.floor(Math.random() * 100) + 100;
    timer = setTimeout(luo_kissoja,2000);
 
  }
 
-
+While true:{
+   rx = Math.floor(Math.random() * 100) + 100; 
+}
 
 
 class Kissa {
