@@ -25,8 +25,7 @@ function setup(){
   //luo_kissoja();
 }
 
-function AloitaPeli()
-{
+function AloitaPeli(){
  kissalista = [];
  lost_liver = 9
  saved_livers = 0
